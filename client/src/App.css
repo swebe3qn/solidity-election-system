@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100vh;
+  padding: 100px 0px;
+}
+
+.container > div {
+  width: 50%;
+  padding: 0 15px;
+}
+
+.candidate {
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.candidate:last-of-type {
+  border-bottom: none;
+}
+
+.inner {
+  padding: 20px;
+  background-color: #eee;
+}
